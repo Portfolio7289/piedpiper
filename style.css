@@ -1,0 +1,195 @@
+@media (max-width:1200px){
+  .main-container {
+      max-width: 970px;
+  }
+}
+@media (max-width:992px){
+  .main-container {
+      max-width: 750px;
+  }
+}
+@media (max-width:768px){
+  .main-container {
+      max-width: none;
+  }
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+/* тело сайта */
+body {
+   margin: 0 auto;
+   background-color: #ffffff;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* основной блок */
+.main-container { 
+  padding-right: 55px;
+  padding-left: 55px;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* шапка сайта */
+.header {
+  background-color: #007765;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 84px;
+  z-index: 21;
+}
+.navigation-container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation {
+  padding-bottom: 30px;
+}
+.logo {
+  padding-top: 20px;
+}
+.link {
+  text-decoration: none;
+  font-size: 24px;
+  color: #fff;
+}
+/* заголовки */
+.titles {
+  margin-top: 48px;
+  color: #007765; 
+  font-style: normal; 
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px; 
+  text-align: center;
+}
+.section {
+  background: url(img/Jumbotron.svg) center no-repeat;
+  background-size: cover;
+  padding-bottom: 160px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  margin-top: 84px;
+  min-height: 403px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.maintitle {
+  font-weight: 500px;
+  font-size: 72px;
+  line-height: 84.38px;
+  text-align: center;
+  color: white;
+  padding-top: 100px;
+}
+.text-problem {
+  font-size: 32px;
+  line-height: 37.5px;
+  font-weight: 400;
+}
+.text-problem p {
+  padding-top: 30px;
+}
+.hero{
+  min-height: 483px;
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background-image: url(img/hero.svg);
+  background-size: cover;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+} 
+.hero-message {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 56px;
+  font-style: italic;
+  color: #ffffff;
+  text-align: center;
+  max-width: 893px;
+}
+.logo {
+  float: left;
+  width: 120px;
+  height: auto;
+  margin-right: 48px;
+  margin-bottom: 35px;
+}
+.maintext {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 37px;
+  padding-bottom: 92px;
+}
+.team {
+background-color: #dddddd;
+padding-top: 20px;
+padding-bottom: 30px;
+}
+.cards {
+padding-top: 40px;
+}
+.cards-img {
+width: 350px;
+height: 283px;
+text-align: center;
+display: flex;
+flex-flow: column wrap;
+align-items: center;
+padding-bottom: 55px;
+}
+.figure {
+margin: 0; 
+padding: 0;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+.cards-photo {
+width: 168px; 
+height: 168px;
+display: flex;
+flex-flow: wrap;
+align-items: center;
+}
+.cardname {
+  font-size: 24px;
+  color: #007765;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+}
+em {
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  font-weight: 400;
+}
+.footer {
+  padding-top: 50px;
+  background-color: #333; 
+  height: 176px;
+  text-align: center;
+}
+.footer-text {
+  width: 540px; 
+  height: 74px;
+  margin: 0 auto;
+  color: #fff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+}
